@@ -1,4 +1,13 @@
-# Model Findings
-The variable **total_bill** is the most influential predictor of the tip amount. 
+# Analysis Notes
 
-According to the regression coefficients, for every additional dollar on the total bill, the tip tends to increase by roughly $0.09 to $0.10, holding all other variables constant. The size of the party (number of people) also shows a positive influence, but the bill amount remains the primary driver.
+### Model Performance
+* **RMSE:** 0.8387
+* **R² Score:** 0.4373
+
+### Influential Variables
+Based on the visualization, the variable **size** (party size) is the most influential positive predictor of the tip amount. 
+
+**Key Findings:**
+* **Party Size:** This feature has the strongest positive coefficient, meaning larger groups lead to higher tips.
+* **Smoking Status:** Being a smoker shows a significant negative influence on the tip amount in this model.
+* **Total Bill:** While influential, the bill amount follows party size in terms of positive impact magnitude.
